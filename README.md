@@ -16,4 +16,4 @@
 - HTML
 - CSS
 
-Link para o arquivo do frontend Mentor [clique aqui](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
+Link para o arquivo do frontend Mentor <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0" target="_blank">clique aqui</a>
