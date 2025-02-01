@@ -1,0 +1,135 @@
+@media (max-width: 1000px) {
+    .principal .image img {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) top center no-repeat;
+        background-size: cover;
+    }
+    
+    .cabecalho {
+        padding: 20px 60px;
+    }
+    
+    .principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 55px 70px;
+    }
+    
+    .principal .image img {
+        width: 100%;
+    }
+    
+    .principal .conteudo {
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .principal .conteudo h1 {
+        font-size: 40px;
+        padding-top: 110px;
+        color: #fff;
+    }
+    
+    .principal .conteudo p {
+        font-size: 25px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        color: #fff;
+        line-height: 40px;
+    }
+    
+    .principal .conteudo a {
+        padding: 20px 100px;
+        border-radius: 50px;
+        font-size: 25px;
+        font-weight: 300;
+        background-color: #fff;
+        color: hsl(257, 40%, 49%);
+    }
+    
+    .rodape {
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    
+    .rodape a {
+        padding: 10px;
+    }
+    
+    
+    .rodape a i {
+        font-size: 30px;
+        padding: 12px;
+        border: 1px solid #fff;
+        border-radius: 50px;
+        color: #fff;
+    }
+    
+    .rodape a i.largo {
+        font-size: 30px;
+        padding: 12px 17px;
+        border: 1px solid #fff;
+        border-radius: 50px;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .cabecalho {
+        padding: 10px 20px;
+    }
+
+    .cabecalho img {
+        height: 40px;
+    }
+
+    .principal {
+        
+        padding: 10px;
+    }
+
+    .principal .image img {
+        min-width: 300px;
+    }
+
+    .principal .conteudo {
+        align-items: center;
+        padding: 10px;
+    }
+    .principal .conteudo h1 {
+        font-size: 30px;
+    }
+
+    .principal .conteudo p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .principal .conteudo a {
+        font-size: 15px;
+        padding: 10px 50px;
+    }
+
+    .rodape a {
+        padding: 5px;
+    }
+
+    .rodape a i {
+        font-size: 10px;
+    }
+
+    .rodape a i.largo {
+        font-size: 10px;
+        padding: 12px 14px;
+    }
+
+
+}
