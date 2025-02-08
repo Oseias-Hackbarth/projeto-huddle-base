@@ -1,8 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat top;
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) center center no-repeat;
     background-size: contain;
     max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
 }
 
 .cabecalho {
@@ -47,7 +49,7 @@ body {
     text-align: center;
     padding: 15px 60px;
     border-radius: 50px;
-    box-shadow: 3px 3px 10px #000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
 
@@ -56,17 +58,17 @@ body {
     color: #fff;
 }
 
-.rodape {
+.rodape ul {
     display: flex;
     justify-content: flex-end;
     margin: 10px 70px 0 70px;
 }
 
-.rodape a {
+.rodape ul li {
    padding: 8px;
 }
 
-.rodape a i {
+.rodape ul li a i {
     font-size: 17px;
     padding: 12px;
     border: 1px solid white;
@@ -75,7 +77,7 @@ body {
     transition: 0.3s;
 }
 
-.rodape a i.largo {
+.rodape ul li a i.largo {
     font-size: 17px;
     padding: 12px 16px;
     border: 1px solid white;
@@ -83,7 +85,7 @@ body {
     color: #fff;
 }
 
-.rodape a:hover i {
+.rodape ul li a:hover i {
     color: hsl(300, 69%, 71%);
     border: 1px solid hsl(300, 69%, 71%);
 }

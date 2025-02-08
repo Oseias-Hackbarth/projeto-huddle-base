@@ -60,12 +60,12 @@
         margin-top: 90px;
     }
     
-    .rodape a {
+    .rodape ul li a {
         padding: 10px;
     }
     
     
-    .rodape a i {
+    .rodape ul li a i {
         font-size: 30px;
         padding: 12px;
         border: 1px solid #fff;
@@ -73,7 +73,7 @@
         color: #fff;
     }
     
-    .rodape a i.largo {
+    .rodape ul li a i.largo {
         font-size: 30px;
         padding: 12px 17px;
         border: 1px solid #fff;
@@ -83,21 +83,27 @@
 }
 
 @media (max-width: 375px) {
+
+    body {
+        background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) top center no-repeat;
+    }
+
     .cabecalho {
-        padding: 10px 20px;
+        padding: 10px 20px 0 0;
     }
 
     .cabecalho img {
-        height: 40px;
+        height: 35px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     .principal {
-        
         padding: 10px;
     }
 
     .principal .image img {
-        min-width: 300px;
+        width: 280px;
     }
 
     .principal .conteudo {
@@ -105,30 +111,42 @@
         padding: 10px;
     }
     .principal .conteudo h1 {
-        font-size: 30px;
+        font-size: 25px;
+        padding-top: 30px;
     }
 
     .principal .conteudo p {
-        font-size: 20px;
+        margin-bottom: 0;
+        padding: 0 0 20px;
+        font-size: 15px;
         line-height: 30px;
     }
 
     .principal .conteudo a {
-        font-size: 15px;
-        padding: 10px 50px;
+        font-size: 10px;
+        padding: 10px 60px;
     }
 
-    .rodape a {
+    .rodape {
+        margin-top: 20px;
+    }
+
+    .rodape ul li {
+        padding: 0px;
+    }
+
+    .rodape ul li a {
         padding: 5px;
     }
 
-    .rodape a i {
+    .rodape ul li a i {
         font-size: 10px;
+        padding: 6px;
     }
 
-    .rodape a i.largo {
+    .rodape ul li a i.largo {
         font-size: 10px;
-        padding: 12px 14px;
+        padding: 6px 8px;
     }
 
 
